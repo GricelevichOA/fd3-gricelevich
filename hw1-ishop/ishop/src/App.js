@@ -36,7 +36,7 @@ const SHOP_ITEMS = [
 function App() {
   return (
     <div>
-      <h1>Items Shop</h1>
+      <h1>Items Shop (Now with Pull Request)</h1>
       <ShopItems items={SHOP_ITEMS} />
     </div>
   );
