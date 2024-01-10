@@ -1,0 +1,38 @@
+.App {
+  padding: 0 15px;
+}
+
+.table {
+}
+
+.table__head {
+}
+
+.table__row {
+}
+
+.table__date {
+  text-orientation: sideways;
+  writing-mode: sideways-lr;
+}
+
+.table__name {
+  text-align: start;
+}
+
+.table__cell {
+  height: 50px;
+  width: 50px;
+
+  border: 1px solid #000000;
+}
+
+.table__cell_checked {
+  /* https://www.flaticon.com/free-icon/check_3388530?term=check+mark&page=1&position=5&origin=tag&related_id=3388530 */
+  background: no-repeat url("../public/check.png") center;
+  background-size: cover;
+}
+
+.table__cell_unchecked {
+  background-color: white;
+}
